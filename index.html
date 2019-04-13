@@ -2,83 +2,80 @@
 <html lang="pt-br">
 
 <head>
-	<title>Meu Portfólio</title>
+	<title>Washington</title>
 	<meta name="viewport" content="width=device-width, user-scalable=no">
 
 	<script type="text/javascript" src="public/js/jquery-3.3.1.min.js"></script>
 	<link rel="stylesheet" type="text/css" href="public/css/css_bootstrap/bootstrap.min.css">
 	<script type="text/javascript" src="public/js/js_bootstrap/bootstrap.min.js"></script>
+	<link href="https://fonts.googleapis.com/css?family=Anton|Bitter|Indie+Flower" rel="stylesheet">
 
 	<link rel="stylesheet" type="text/css" href="public/css/style.css">
-
-	<script>
-		$(document).ready(function () {
-
-			$('.bt-sidenav').click(function () {
-
-				if ($('.bt-sidenav').hasClass('triangle-right')) {
-
-					$('.sidenav').css('display', 'block');
-					$('.bt-sidenav').removeClass('triangle-right');
-					$('.bt-sidenav').addClass('close');
-
-				} else {
-					$('.sidenav').css('display', 'none');
-					$('.bt-sidenav').removeClass('close');
-					$('.bt-sidenav').addClass('triangle-right');
-				}
-
-			});
-		});
-	</script>
 
 </head>
 
 <body>
-	<nav class="navbar navbar-expand-md">
-		<div class="container">
-
-			<a href="#" class="navbar-brand">Washington</a>
-
-			<button class="navbar-toggler navbar-light" type="button" data-toggle="collapse" data-target="	
-					#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-				aria-label="Toggle navigation">
-				<span class="navbar-toggler-icon"></span>
-			</button>
-			<div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
-				<ul class="navbar-nav">
-					<li class="nav-item active mr-3">
-						<a class="nav-link" href="#section-myprojects">Meus projetos<span class="sr-only">(current)</span></a>
-					</li>
-					<li class="nav-item active mr-3">
-						<a class="nav-link" href="#">Projetos clone</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Sobre mim</a>
-					</li>
-					<li class="nav-item active">
-						<a class="nav-link" href="#">Contato</a>
-					</li>
-				</ul>
-
-			</div>
-		</div>
+	<nav class="navbar navbar-expand justify-content-center bg-dark">
+		<a  class="navbar-brand">Portfólio</a>
 	</nav>
-	
-	<section id="section-myprojects">
-		<div class="container">
-			<div class="row">
-				<div class="col-md-6">
-					<div class="row">
-						<h2>Meus Projetos</h2>
-					</div>
+	<div class="container">	
+		<div class="column">
+			<div class="col-12 col-md-12 col-sm-12  col-lg-12  col-xl-12 mt-2 p-2" style="border: 1px solid lightgrey; text-align: center">
+				<h5>Olá, meu nome é Washington</h5>
+				<h6>Este é meu Portfólio, e aqui estão alguns dos meus projetos pessoais</h6>
+			</div>
+			<div>
+				<div>
+					<h4>Projeto Meu Gás</h4>
+					<img src="https://css-tricks.com/wp-content/uploads/2018/05/css-art.jpg" style="width: 100px; height: 100px;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis gravida dolor, vitae gravida ante lobortis in. Aliquam gravida fermentum sem quis vulputate. Vivamus vel tincidunt erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean tincidunt est est, sagittis malesuada</p>
 				</div>
-				<div class="col-md-6">
-					<h3>projetos</h3>
+				<div>
+					<h4>Projeto Site de produtos</h4>
+					<img src="https://css-tricks.com/wp-content/uploads/2018/05/css-art.jpg" style="width: 100px; height: 100px;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis gravida dolor, vitae gravida ante lobortis in. Aliquam gravida fermentum sem quis vulputate. Vivamus vel tincidunt erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean tincidunt est est, sagittis malesuada</p>
+				</div>
+				<div>
+					<h4>Projeto App calcula ganhos</h4>
+					<img src="https://css-tricks.com/wp-content/uploads/2018/05/css-art.jpg" style="width: 100px; height: 100px;">
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla iaculis gravida dolor, vitae gravida ante lobortis in. Aliquam gravida fermentum sem quis vulputate. Vivamus vel tincidunt erat. Interdum et malesuada fames ac ante ipsum primis in faucibus. Aenean tincidunt est est, sagittis malesuada</p>
+				</div>
+			
+			</div>
+		</div>
+	</div>
+	
+
+	<!-- <p>Olá, me envie um email, mensagem no WhatsApp, uma ligação...</p>
+		<p>Estou a disposição para trabalharmos juntos!!</p> -->
+	<footer class="bg-dark">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-12 col-md-6 col-sm-6 col-sm-6 col-lg-6 col-xl-6 mt-2">
+				<h4>Tecnologias</h4>
+					<ul style="text-align: start">
+						<li>NodeJS</li>
+						<li>VueJs</li>
+						<li>Android Nativo com JAVA</li>
+						<li>Apps com Flutter</li>
+					</ul>
+			</div>
+				<div class="col-12 col-md-6 col-sm-6 col-sm-6 col-lg-6 col-xl-6 mt-2">
+					<h4>Contato</h4>
+
+					<ul style="text-align: start;">
+						<li>
+							<label>Celular: <span>(87)98828-4531</span></label>
+						</li>
+						<li>
+							<label>E-mail: <span>washington1995luiz@gmail.com</span></label>
+						</li>
+					</ul>
 				</div>
 			</div>
 		</div>
-	</section>
+	</footer>
+
 </body>
 
 </html>
